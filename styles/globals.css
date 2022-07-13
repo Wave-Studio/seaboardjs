@@ -1,0 +1,36 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sacramento&family=Saira&display=swap');
+
+
+
+html,
+body {
+
+  font-family: 'Saira', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+th {
+  @apply !min-w-[6rem];
+}
+
+:root {
+  @apply bg-bg;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.link {
+  @apply !underline underline-offset-2 decoration-accent2 hover:decoration-2 transition cursor-pointer;
+}
+
+.img-shadow-cause-nextjs-is-stupid > span {
+  @apply shadow-xl;
+}
